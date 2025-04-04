@@ -47,6 +47,7 @@ public class Enemy : MonoBehaviour
             Bullet bullet = collision.GetComponent<Bullet>();
             if (bullet != null)
             {
+                Destroy(gameObject);
                 TakeDamage(bullet.damage); // Reduce health by the damage amount
                 Destroy(collision.gameObject); // Destroy the bullet
             }
