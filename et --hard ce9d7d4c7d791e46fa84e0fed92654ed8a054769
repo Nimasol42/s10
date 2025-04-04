@@ -1,0 +1,68 @@
+[33mcommit 5e6bd6d2c43ab1de99277bc0ae267c1eba5a7764[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nimasol42 <nima.soltani20051383@gmail.com>
+Date:   Fri Apr 4 23:07:41 2025 +0330
+
+    project with navmesh
+
+[33mcommit cdff16a8c0854c1e7a98ec2e1550924ac62843b4[m
+Merge: 63fbb4f 984d3a0
+Author: Nimasol42 <140307871+Nimasol42@users.noreply.github.com>
+Date:   Fri Apr 4 12:02:32 2025 +0330
+
+    Merge pull request #1 from 3RFUNn/main
+    
+    Fixed Bugs
+
+[33mcommit 984d3a0091e8d0499a8f2a3753edede44cda4425[m
+Author: 3RFUNn <efnoskuee@gmail.com>
+Date:   Fri Apr 4 01:21:39 2025 +0100
+
+    Update SampleScene.unity
+
+[33mcommit 85b05161f9cf23a25f60347801baedf34ed75af4[m
+Author: 3RFUNn <efnoskuee@gmail.com>
+Date:   Fri Apr 4 01:21:23 2025 +0100
+
+    commit
+
+[33mcommit ce9d7d4c7d791e46fa84e0fed92654ed8a054769[m
+Author: 3RFUNn <efnoskuee@gmail.com>
+Date:   Fri Apr 4 01:16:02 2025 +0100
+
+    commit
+
+[33mcommit 63fbb4fd92f373bacb3ef841e475c4d782de875f[m
+Author: Nimasol42 <nima.soltani20051383@gmail.com>
+Date:   Thu Apr 3 00:10:03 2025 +0330
+
+    Add Unity project files including Assets folder
+
+[33mcommit 00521fdc7cebc4d8e4866c7d52d1e1af9780ca57[m
+Author: Nimasol42 <nima.soltani20051383@gmail.com>
+Date:   Thu Apr 3 00:06:17 2025 +0330
+
+    Remove existing files to start fresh
+
+[33mcommit cd2167973f3cb1b6b72d17eca38b3692ec650d5c[m
+Author: Nimasol42 <nima.soltani20051383@gmail.com>
+Date:   Thu Apr 3 00:01:23 2025 +0330
+
+    Add Unity project files with Assets folder
+
+[33mcommit 1de9afcf7c207c8ee73f9d901837f74af98c8cf8[m
+Author: Nimasol42 <nima.soltani20051383@gmail.com>
+Date:   Wed Apr 2 23:58:29 2025 +0330
+
+    Remove existing files to start fresh
+
+[33mcommit f9aa2bda93bb5d74bf4e7988623cc4edc58edad0[m
+Author: Nimasol42 <nima.soltani20051383@gmail.com>
+Date:   Wed Apr 2 23:51:12 2025 +0330
+
+    Initial commit with Unity project
+
+[33mcommit e75d223c28469b194215640dc2abc26b4b8450f9[m
+Author: Nimasol42 <140307871+Nimasol42@users.noreply.github.com>
+Date:   Wed Apr 2 23:42:29 2025 +0330
+
+    Initial commit
