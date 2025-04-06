@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = new Vector3(movement.x, rb.linearVelocity.y, movement.z);
         if (Input.GetButtonDown("Fire1"))
         {
+            Debug.Log("Fire1 pressed");
             Shoot();
         }
     }

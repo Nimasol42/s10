@@ -200,7 +200,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: e52107a97552caa40a77ae5695ff3bff, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: a625ed23ec2523744a85912f786289d4, type: 2}
   m_BuildHeightMesh: 0
 --- !u!64 &221070782
 MeshCollider:
@@ -307,6 +307,7 @@ GameObject:
   - component: {fileID: 236997898}
   - component: {fileID: 236997897}
   - component: {fileID: 236997902}
+  - component: {fileID: 236997903}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -368,10 +369,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 120
+  m_Constraints: 16
   m_CollisionDetection: 0
 --- !u!136 &236997899
 CapsuleCollider:
@@ -462,6 +463,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+--- !u!114 &236997903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236997895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e4af33059197440a37f7ad63d6acfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,7 +562,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -1.71, y: -1.2, z: -10}
   m_LocalScale: {x: 101, y: 101, z: 101}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -831,9 +844,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8059895526590615104, guid: d3d236c515075b549bda14d8fced2ae3, type: 3}
   npcPrefab: {fileID: 3829530760893354464, guid: 62d0af9bb0748944e8f67b2c2d7ff730, type: 3}
-  spawnRange: 20
-  enemyCount: 5
-  npcCount: 5
+  maxEnemies: 10
+  maxNPC: 5
+  enemySpawnRange: 20
+  npcSpawnRange: 20
+  spawnInterval: 1
 --- !u!4 &907113948
 Transform:
   m_ObjectHideFlags: 0
@@ -905,7 +920,7 @@ Transform:
   m_GameObject: {fileID: 1317103893}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 0.56, z: 0}
+  m_LocalPosition: {x: 0.3, y: 0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
